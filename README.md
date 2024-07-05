@@ -2,16 +2,8 @@
 
 ## Welcome!
 
-Welcome to my submission for the Fovus Internship Program. This full-stack web application is integrated with Amazon AWS, fulfilling all basic requirements outlined in the documentation.
+This full-stack web application is integrated with Amazon AWS.
 
-### Brief Description:
-
-1. **Basic Requirements:**
-    - All basic requirements specified in the documentation have been successfully fulfilled.
-
-2. **Bonus Tasks:**
-    - The application is hosted on AWS Amplify utilizing CI/CD for deployment.
-    - Implemented a responsive UI using Tailwind CSS and React.
 
 ### Problems Being Addressed:
 
@@ -69,7 +61,6 @@ To replicate the setup:
 
 2. **Testing LambdaHandler:**
     - Method: POST
-    - URL: `https://yi57pl0p58.execute-api.ap-south-1.amazonaws.com/prod/`
     - Sample Body: `{"inputText":"A","inputFile":"user1/sample.txt"}`
 
    ![Lambda Handler Test](assets/TestLambdaHandler.png)
@@ -78,7 +69,6 @@ To replicate the setup:
 
 3. **Testing StreamHandler:**
     - Method: POST
-    - URL: `https://r6bt88y1d7.execute-api.ap-south-1.amazonaws.com/prod/presigned-url`
     - Sample Body: `{"key":"user1/sample.txt"}`
 
    ![Stream Handler Test](assets/TestStreamHandler.png)
@@ -104,7 +94,5 @@ Access the hosted [Amplify version of the app](https://main.d12wxi4pqv7j46.ampli
 ![UI](assets/UI.png)
 
 ---
-
-Thank you for the opportunity. I hope you find my submission satisfactory.
 
 **Email-ID:** nrajadhyaksha@ucsd.edu / rajadhyakshanishant@gmail.com
